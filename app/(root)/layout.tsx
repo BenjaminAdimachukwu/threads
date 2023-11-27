@@ -29,8 +29,8 @@ export default function RootLayout({
         <main className='flex flex-row'>
           <LeftSidebar/>
 
-          <section className='main-container border border-red-500 border-solid'>
-           <div className='w-full max-w-4xl border border-lime-500 border-solid'>
+          <section className='main-container '>
+           <div className='w-full max-w-4xl '>
            {children}
            </div>
           </section>
